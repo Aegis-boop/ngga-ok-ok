@@ -1,0 +1,7 @@
+.env
+configs/
+*.json
+__pycache__/
+*.pyc
+venv/
+website/__pycache__/
