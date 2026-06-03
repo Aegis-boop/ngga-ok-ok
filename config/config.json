@@ -1,0 +1,41 @@
+{
+  "log_channel_id": null,
+  "verified_role": "Verified",
+  "mute_role": "Muted",
+  "whitelisted_users": [],
+  "whitelisted_roles": ["Owner", "Admin", "Moderator"],
+  "anti_raid": {
+    "enabled": true,
+    "join_limit": 5,
+    "time_window": 10,
+    "action": "ban"
+  },
+  "join_gate": {
+    "enabled": true,
+    "min_account_age_days": 7,
+    "action": "kick"
+  },
+  "automod": {
+    "enabled": true,
+    "spam_threshold": 5,
+    "spam_window": 3,
+    "mass_mention_limit": 5,
+    "bad_words": [],
+    "invite_block": true,
+    "link_block": false
+  },
+  "anti_nuke": {
+    "enabled": true,
+    "protect_roles": true,
+    "protect_channels": true,
+    "protect_webhooks": true,
+    "panic_mode": false
+  },
+  "verification": {
+    "enabled": true,
+    "type": "captcha"
+  },
+  "lockdown": false,
+  "backups": [],
+  "rescue_key": "AIZEN-READY-2026"
+}
